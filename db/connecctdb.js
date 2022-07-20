@@ -1,8 +1,8 @@
 import mongoose from 'mongoose'
 
-const connectdb = async ()=>{
+const connectdb = async (DATABASE_URL)=>{
     try{
-    await mongoose.connect("mongodb+srv://test:test@cluster0.puh0q.mongodb.net/e-commerce?retryWrites=true&w=majority")
+    await mongoose.connect(DATABASE_URL)
         console.log("connected sucessfully...");
     }
     catch(err){
