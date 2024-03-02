@@ -1,4 +1,4 @@
-# eCommerce Project
+# E-Commerce
 
 Welcome to our eCommerce project! This project is built using Node.js, Express, and MongoDB, providing a platform for users to buy and sell products online.
 
